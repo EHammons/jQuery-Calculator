@@ -5,24 +5,22 @@ $(document).ready(function() {
     var inputTwo = 0;
     var result = 0;
 
-    var inputChoices = ["0","1","2","3","4","5","6","7","8","9","+","-","/","*","^","="];
+    // var inputChoices = ["1","2","3","+","4","5","6","-","7","8","9","*","0","/","*","^","="];
 
-    for (var i = 0; i < inputChoices.length; i++) {
-        var input = $("<button>");
+    // for (var i = 0; i < inputChoices.length; i++) {
+    //     var userInput = $("<button>");
 
-        input.addclass("input");
+    //     userInput.addClass("userInput");
     
-        input.attr("data-input", inputChoices[i]);
+    //     userInput.attr("data-userInput", inputChoices[i]);
 
-        input.text(inputChoices[i]);
+    //     userInput.text(inputChoices[i]);
+      
+    // }
 
-        // console.log(input);
-        
-    }
+    $(".btn").on("click", function() {
 
-    $(".input").on("click", function() {
-
-        
+        console.log(this.value);
 
     })
 
