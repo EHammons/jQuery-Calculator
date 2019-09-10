@@ -1,9 +1,16 @@
 $(document).ready(function() {
 
-    var inputOne = 0;
-    var operator = 0;
-    var inputTwo = 0;
-    var result = 0;
+    var inputOne = "";
+    var operator = "";
+    var inputTwo = "";
+    var result = "";
+    var operatorClicked = false;
+
+    $(".number").on("click", function(){
+        if(!operatorClicked){
+            
+        }
+    })
 
     $(".btn").on("click", function() {
 
